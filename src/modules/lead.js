@@ -20,7 +20,6 @@ const INITIAL_STATE = {
 }
 
 const reducer = (state = INITIAL_STATE, action = {}) => {
-    console.log(state)
     switch (action.type) {
         case types.SHUFFLE:
             return { ...state, order: action.order }
