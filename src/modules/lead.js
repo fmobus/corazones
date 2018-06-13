@@ -2,7 +2,7 @@ import * as constants from '../constants'
 
 export const types = {
     SHUFFLE: 'lead::SHUFFLE',
-    DRAW: 'lead::DRAW_CARD'
+    DRAW: 'lead::DRAW'
 }
 
 export const draw = () => {
